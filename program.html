@@ -78,8 +78,8 @@
     </div>
   </header>
   <!-- Header Section HTML -->
-
-  <section class="program-hero-section">
+  <div id="bg-blob"></div>
+  <section class="program-hero-section" data-color="#5d98ff">
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-12 col-lg-12">
@@ -95,7 +95,104 @@
       </div>
     </div>
   </section>
-
+  <section class="quote-bg">
+    <div class="container">
+      <div class="quote-box mx-auto">
+        <!-- <div class="quote-text">
+          “Your time is limited, so don’t waste it living someone else’s life.”
+        </div>
+        <div class="quote-author">
+          – Steve Jobs
+        </div> -->
+      </div>
+    </div>
+  </section>
+  <section class="whatYouGet">
+    <div class="container my-5">
+      <div class="row text-white rounded shadow-lg p-4 align-items-center">
+        
+        <!-- Image Side -->
+        <div class="col-md-6 text-center mb-4 mb-md-0">
+          <img src="assets/img/why-choose.jpg" alt="Feature Image" class="img-fluid rounded" style="max-height: 300px;">
+        </div>
+        
+        <!-- Points Side -->
+        <div class="col-md-6">
+          <h3 class="mb-4 font-weight-bold text-white border-bottom pb-2">Why Choose Us?</h3>
+          <ul class="list-unstyled">
+            <li class="mb-3">
+              <div class="d-flex align-items-start text-white">
+                <span class="badge badge-success mr-3 p-2">✔</span>
+                <span>24/7 customer support available anytime</span>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex align-items-start text-white">
+                <span class="badge badge-success mr-3 p-2">✔</span>
+                <span>Trusted by thousands of users globally</span>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex align-items-start text-white">
+                <span class="badge badge-success mr-3 p-2">✔</span>
+                <span>Secure and seamless performance</span>
+              </div>
+            </li>
+            <li class="mb-3">
+              <div class="d-flex align-items-start text-white">
+                <span class="badge badge-success mr-3 p-2">✔</span>
+                <span>Custom solutions tailored to your needs</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+    
+      </div>
+    </div>
+    
+  </section>
+  <section class="our-team gradient-bg mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Our Dedicated Team</h2>
+          <p>Our program is designed to help you build a strong brand identity that will help you stand out.</p>
+        </div>
+      </div>
+      <div class="row team-img-sec g-3 justify-content-center">
+        <div class="col-6 col-sm-4 col-md">
+          <div class="image-card">
+            <img src="assets/img/rohit-z3E__y0R.png" alt="Person 1">
+            <div class="overlay">John Doe</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md">
+          <div class="image-card">
+            <img src="assets/img/rohit-z3E__y0R.png" alt="Person 2">
+            <div class="overlay">Ravi Kumar</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md">
+          <div class="image-card">
+            <img src="assets/img/rohit-z3E__y0R.png" alt="Person 3">
+            <div class="overlay">Aisha Khan</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md">
+          <div class="image-card">
+            <img src="assets/img/rohit-z3E__y0R.png" alt="Person 4">
+            <div class="overlay">Siddharth</div>
+          </div>
+        </div>
+        <div class="col-6 col-sm-4 col-md">
+          <div class="image-card">
+            <img src="assets/img/rohit-z3E__y0R.png" alt="Person 5">
+            <div class="overlay">Emily Rose</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <section class="program-plan-section">
     <div class="container">
       <div class="row">
@@ -132,14 +229,156 @@
       </div>
     </div>
   </section>
+  <section class="faq">
+    <div class="container my-5">
+      <h2 class="text-center text-light mb-4 fw-bold">Frequently Asked Questions</h2>
+    
+      <div class="accordion" id="faqAccordion">
+        <!-- FAQ Item 1 -->
+        <div class="accordion-item border border-secondary rounded-1 mb-2">
+          <h2 class="accordion-header" id="headingOne">
+            <a class="accordion-button collapsed bg-dark text-white small fw-semibold px-3 py-2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              I will collapse to tell you less information.
+          </a>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-light small px-3 pt-3 pb-3 border-top border-secondary">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+              magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+              commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur.
+            </div>
+          </div>
+        </div>
+    
+        <!-- FAQ Items 2-5 -->
+        <!-- Just copy-pasting with different collapse targets and IDs -->
+        <div class="accordion-item border border-secondary rounded-1 mb-2">
+          <h2 class="accordion-header" id="headingTwo">
+            <a class="accordion-button collapsed bg-dark text-white small fw-semibold px-3 py-2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              I will expand to tell you more information.
+          </a>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-light small px-3 pt-3 pb-3 border-top border-secondary">
+              Content for question 2.
+            </div>
+          </div>
+        </div>
+    
+        <div class="accordion-item border border-secondary rounded-1 mb-2">
+          <h2 class="accordion-header" id="headingThree">
+            <a class="accordion-button collapsed bg-dark text-white small fw-semibold px-3 py-2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              I will expand to tell you more information.
+          </a>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-light small px-3 pt-3 pb-3 border-top border-secondary">
+              Content for question 3.
+            </div>
+          </div>
+        </div>
+    
+        <div class="accordion-item border border-secondary rounded-1 mb-2">
+          <h2 class="accordion-header" id="headingFour">
+            <a class="accordion-button collapsed bg-dark text-white small fw-semibold px-3 py-2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              I will expand to tell you more information.
+          </a>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-light small px-3 pt-3 pb-3 border-top border-secondary">
+              Content for question 4.
+            </div>
+          </div>
+        </div>
+    
+        <div class="accordion-item border border-secondary rounded-1 mb-2">
+          <h2 class="accordion-header" id="headingFive">
+            <a class="accordion-button collapsed bg-dark text-white small fw-semibold px-3 py-2" type="button"
+              data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              I will expand to tell you more information.
+          </a>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#faqAccordion">
+            <div class="accordion-body text-light small px-3 pt-3 pb-3 border-top border-secondary">
+              Content for question 5.
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+  </section>
+  <footer class="bg-black text-white pt-5 pb-3">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        
+        <div class="col-md-4 mb-3 text-left">
+          <h5 class="fw-bold text-white">About</h5>
+          <p class="small text-white">We are a creative agency delivering high-quality digital solutions for your brand.</p>
+        </div>
+  
+        <div class="col-md-2 mb-3">
+          <h5 class="fw-bold text-white">Services</h5>
+          <ul class="list-unstyled small text-white">
+            <li>Web Design</li>
+            <li>Development</li>
+            <li>Marketing</li>
+            <li>Consulting</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-2 mb-3">
+          <h5 class="fw-bold text-white">Products</h5>
+          <ul class="list-unstyled small text-white">
+            <li>Landing Pages</li>
+            <li>Dashboards</li>
+            <li>eCommerce</li>
+            <li>Mobile Apps</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-2 mb-3">
+          <h5 class="fw-bold text-white">Portfolio</h5>
+          <ul class="list-unstyled small text-white">
+            <li>Case Studies</li>
+            <li>Clients</li>
+            <li>Testimonials</li>
+          </ul>
+        </div>
+  
+        <div class="col-md-2 mb-3">
+          <h5 class="fw-bold text-white">Contact</h5>
+          <p class="small mb-1 text-white">Email: hello@example.com</p>
+          <p class="small mb-0 text-white">Phone: +91 8460336934</p>
+        </div>
+      </div>
+      
+      <hr class="border-secondary mt-3">
+      <div class="text-center small  text-white">
+        © 2025 Your Company. All rights reserved.
+      </div>
+    </div>
+  </footer>
+  
 
 
+  <script src="./assets/js/jquery.3.2.1.min.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <script src="./assets/js/popper.min.js"></script>
+  <script src="./assets/js/form-ajax.js" defer async></script>
 
 
-  <script src="assets/js/jquery.3.2.1.min.js"></script>
-  <script src="assets/js/popper.min.js"></script>
-  <script src="assets/js/bootstrap.min.js"></script>
-  <script src="assets/js/form-ajax.js" defer async></script>
   <script>
     $(window).scroll(function () {
       var scroll = $(window).scrollTop();
@@ -150,7 +389,42 @@
         $(".header").removeClass("scrolledHeader");
       }
     });
-  </script>
+  
+    const overlay = document.querySelector('.gradient-overlay');
+const sections = document.querySelectorAll('.program-hero-section');
+
+document.addEventListener('mousemove', (e) => {
+  const x = e.clientX / window.innerWidth;
+  const y = e.clientY / window.innerHeight;
+  overlay.style.transform = `translate(-${x * 100}px, -${y * 100}px)`;
+});
+
+window.addEventListener('scroll', () => {
+  let current = null;
+
+  sections.forEach(section => {
+    const rect = section.getBoundingClientRect();
+    if (rect.top <= window.innerHeight / 2 && rect.bottom >= window.innerHeight / 2) {
+      current = section;
+    }
+  });
+
+  if (current) {
+    const color = current.dataset.color;
+    overlay.style.background = `radial-gradient(circle at center, ${color} 0%, transparent 70%)`;
+  }
+});
+
+
+const blob = document.getElementById("bg-blob");
+
+  document.addEventListener("mousemove", (e) => {
+    const x = e.clientX;
+    const y = e.clientY;
+
+    // blob.style.transform = `translate(-50%, -50%) translate(${x}px, ${y}px)`;
+  });
+    </script>
 </body>
 
 </html>
